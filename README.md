@@ -1,4 +1,4 @@
-# Younoob
+
 ### Stream music using the YouTube API
 
 A simple music streaming web app built using React.js & Firebase running off the YouTube API.
