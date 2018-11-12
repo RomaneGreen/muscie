@@ -16,3 +16,5 @@ A simple music streaming web app built using React.js & Firebase running off the
 Open `public/src/api.js` and paste in your own YouTube API key.
 
 Then go to `public/src/rebase.js` and paste in your own Firebase Database key & info, then run `npm start`
+
+made with create react app and yarn
