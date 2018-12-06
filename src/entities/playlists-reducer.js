@@ -103,7 +103,7 @@ export default function(){
             },
             {
               playlistId:'PLRZlMhcYkA2EQRcAq4nf7pFP3LcD5uX7h',
-              playlistTitle: '2017 Rap',
+              playlistTitle: '2019 Rap',
               thumbnail: '2017rap.jpg',
               background: '2017rapbg.jpg'
             },
@@ -117,7 +117,7 @@ export default function(){
           playlists: [
             {
               playlistId:'PLw-VjHDlEOgvvecEeS-BC-qFhweKjZJ2I',
-              playlistTitle: 'RedMusic EDM 2017',
+              playlistTitle: 'RedMusic EDM 2019',
             },
             {
               playlistId:'PLB609C57B140530B3',
@@ -225,11 +225,11 @@ export default function(){
             },
             {
               playlistId:'PL3oW2tjiIxvSJxhzHAA7P_NNokrei_QFO',
-              playlistTitle: 'R&B 2017',
+              playlistTitle: 'R&B 2019',
             },
             {
               playlistId:'PLRUpgoNFP-iH9Ze6RSom4O4JhrHYGc6ow',
-              playlistTitle: 'VEVO R&B 2016',
+              playlistTitle: 'VEVO R&B 2019',
             },
             {
               playlistId:'PLVkoprmcJUlpE-1zPtk3sjQtcyyFhEA5v',
