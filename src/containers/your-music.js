@@ -124,8 +124,8 @@ class YourMusic extends Component {
         <div className="your-music-container">
 
           <div className="navigation">
-            <button onClick={() => this.onNavClick('playlists')}>Playlists<hr className={this.selectedClass('playlists')}/></button>
-            <button onClick={() => this.onNavClick('songs')}>Songs<hr className={this.selectedClass('songs')}/></button>
+            <button className="navbutton" onClick={() => this.onNavClick('playlists')}>Playlists<hr className={this.selectedClass('playlists')}/></button>
+            <button className="navbutton" onClick={() => this.onNavClick('songs')}>Songs<hr className={this.selectedClass('songs')}/></button>
           </div>
 
           {this.renderPlaylists()}

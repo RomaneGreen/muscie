@@ -7,6 +7,7 @@ import base from './rebase';
 import firebase from 'firebase';
 import Cookies from 'universal-cookie';
 import { expiry } from './helpers/helper-functions';
+import logo from '../public/images/twitter_profile_image.png'
 
 // Actions
 import { onPlaylistInit, onPageSelect } from './entities';
@@ -106,9 +107,11 @@ class App extends Component {
   render() {
 
     return (
+      
       <div className="App">
-
+        <img className="headlogos" src={logo} height="100" width="100" border-radius="40" background-attachment="fixed" /> 
         <AppContents
+        
           showPage={this.props.showPage}
           playlistList={this.props.playlistList}
           user={this.state.user}
@@ -126,6 +129,7 @@ class App extends Component {
           ) : (
             <div className="user-info">
             <button className="login" onClick={this.login}>Login</button>
+            
             </div>
           )
         }

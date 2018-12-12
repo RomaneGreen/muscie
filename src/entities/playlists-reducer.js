@@ -24,15 +24,15 @@ export default function(){
             },
             {
               playlistId:'PL55713C70BA91BD6E',
-              playlistTitle: 'Billboard 2017'
+              playlistTitle: 'Billboard 2018'
             },
             {
               playlistId:'RDQMdRatoTYe57E',
-              playlistTitle: 'VEVO 2017'
+              playlistTitle: 'VEVO 2019'
             },
             {
               playlistId:'PLARmFEG5iqsl7s1Zri2y-2ZnA-UJtBsJc',
-              playlistTitle: 'TripleJ Hot 100 2017'
+              playlistTitle: 'TripleJ Hot 100 2019'
             },
             {
               playlistId:'PLyjeYZ2qUJzwFlKVvujB8N33rsJoRapq-',
@@ -73,7 +73,7 @@ export default function(){
             },
             {
               playlistId:'PLuUrokoVSxlfUJuJB_D8j_wsFR4exaEmy',
-              playlistTitle: 'Hip Hop 2017',
+              playlistTitle: 'Hip Hop 2018',
               thumbnail: 'hiphop2017.jpg',
               background: 'hiphop2017bg.jpg'
             },

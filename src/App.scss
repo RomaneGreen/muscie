@@ -121,6 +121,7 @@ body {
     font-size:2.6em;
     color:white;
     z-index:99;
+    margin-top: 2.3rem;
     position: relative;
     padding:28px 0 32px 0;
     background-color: $primary-color;
@@ -281,6 +282,7 @@ body {
 
 // Sidebar
 .sidebar {
+  margin-top: 6rem;
   position: fixed;
   height: 100%;
   left: 0;
@@ -761,3 +763,17 @@ body {
     margin-top:4px;
     float:right;
     background-image: url(./images/unmuted.svg); }
+
+    .headlogos {
+      // border: 5px solid #16181c;
+      position: fixed;
+      padding-bottom: -60px;
+      border-right:  5px solid #16181c;
+      border-bottom: 5px solid #16181c;
+      border-left:   .5px solid  #16181c;
+      z-index: 1;
+    }
+
+    .navbutton{
+      color: whitesmoke;
+    }
