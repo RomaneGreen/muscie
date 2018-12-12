@@ -111,8 +111,10 @@ body {
 .search-form{
   margin-bottom: $global-padding;
   label{
-    font-size:0.9em;
-    font-weight: 100;
+    font-size: 1em;
+    font-weight: 1000;
+    position: relative;
+    top: -13.5px;
     color:$white-strong;
   }
   input{
@@ -282,7 +284,7 @@ body {
 
 // Sidebar
 .sidebar {
-  margin-top: 6rem;
+  margin-top: 4.5rem;
   position: fixed;
   height: 100%;
   left: 0;
@@ -767,7 +769,8 @@ body {
     .headlogos {
       // border: 5px solid #16181c;
       position: fixed;
-      padding-bottom: -60px;
+      margin-bottom: 41rem;
+      padding-bottom: -30px;
       border-right:  5px solid #16181c;
       border-bottom: 5px solid #16181c;
       border-left:   .5px solid  #16181c;
@@ -776,4 +779,10 @@ body {
 
     .navbutton{
       color: whitesmoke;
+    }
+
+    .browsegenres{
+      position: relative;
+      top: -40px;
+      right: -30%;
     }

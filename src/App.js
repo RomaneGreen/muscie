@@ -108,8 +108,8 @@ class App extends Component {
 
     return (
       
-      <div className="App">
-        <img className="headlogos" src={logo} height="100" width="100" border-radius="40" background-attachment="fixed" /> 
+      <div className="App"> 
+       <a href ="https://www.streamdefy.com"><img className="headlogos"   src={logo} height="100" width="100" border-radius="40" background-attachment="fixed" />>googal </a> 
         <AppContents
         
           showPage={this.props.showPage}
