@@ -8,6 +8,7 @@ import _ from 'lodash';
 import Search from '../containers/search';
 import YourMusic from '../containers/your-music';
 import SongController from '../containers/song-controller';
+import AppHeader from './appHeader';
 
 class AppContents extends Component {
 
@@ -51,6 +52,7 @@ class AppContents extends Component {
   }
 
   renderPage(){
+    
     if (this.props.genres.includes(this.props.showPage)){
       return (
         <BrowseList
@@ -96,9 +98,10 @@ class AppContents extends Component {
   render(){
     return(
       <div className="container-wrapper">
-
+        
         {this.renderPage()}
 
+        
         <PlaylistSelector
           onPageSelect={this.props.onPageSelect}
           genres={this.props.genres}

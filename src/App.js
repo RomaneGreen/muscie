@@ -7,6 +7,7 @@ import base from './rebase';
 import firebase from 'firebase';
 import Cookies from 'universal-cookie';
 import { expiry } from './helpers/helper-functions';
+import AppHeader from './components/appHeader';
 
 // Actions
 import { onPlaylistInit, onPageSelect } from './entities';
@@ -106,9 +107,14 @@ class App extends Component {
   render() {
 
     return (
+      
       <div className="App">
-
+         
+      
+        <AppHeader />
+        
         <AppContents
+          
           showPage={this.props.showPage}
           playlistList={this.props.playlistList}
           user={this.state.user}
