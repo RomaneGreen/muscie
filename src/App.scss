@@ -1,4 +1,4 @@
-// Variables
+// Variables SASS
 $primary-color: #16181c;
 $song-controller-color: #26292e;
 $highlight-color: #E97236;
@@ -111,8 +111,10 @@ body {
 .search-form{
   margin-bottom: $global-padding;
   label{
-    font-size:0.9em;
-    font-weight: 100;
+    font-size: 1em;
+    font-weight: 1000;
+    position: relative;
+    top: -13.5px;
     color:$white-strong;
   }
   input{
@@ -121,6 +123,7 @@ body {
     font-size:2.6em;
     color:white;
     z-index:99;
+    margin-top: 2.3rem;
     position: relative;
     padding:28px 0 32px 0;
     background-color: $primary-color;
@@ -281,6 +284,7 @@ body {
 
 // Sidebar
 .sidebar {
+  margin-top: 4.5rem;
   position: fixed;
   height: 100%;
   left: 0;
@@ -761,3 +765,24 @@ body {
     margin-top:4px;
     float:right;
     background-image: url(./images/unmuted.svg); }
+
+    .headlogos {
+      // border: 5px solid #16181c;
+      position: fixed;
+      margin-bottom: 41rem;
+      padding-bottom: -30px;
+      border-right:  5px solid #16181c;
+      border-bottom: 5px solid #16181c;
+      border-left:   .5px solid  #16181c;
+      z-index: 1;
+    }
+
+    .navbutton{
+      color: whitesmoke;
+    }
+
+    .browsegenres{
+      position: relative;
+      top: -40px;
+      right: -30%;
+    }

@@ -24,15 +24,15 @@ export default function(){
             },
             {
               playlistId:'PL55713C70BA91BD6E',
-              playlistTitle: 'Billboard 2017'
+              playlistTitle: 'Billboard 2018'
             },
             {
               playlistId:'RDQMdRatoTYe57E',
-              playlistTitle: 'VEVO 2017'
+              playlistTitle: 'VEVO 2019'
             },
             {
               playlistId:'PLARmFEG5iqsl7s1Zri2y-2ZnA-UJtBsJc',
-              playlistTitle: 'TripleJ Hot 100 2017'
+              playlistTitle: 'TripleJ Hot 100 2019'
             },
             {
               playlistId:'PLyjeYZ2qUJzwFlKVvujB8N33rsJoRapq-',
@@ -73,7 +73,7 @@ export default function(){
             },
             {
               playlistId:'PLuUrokoVSxlfUJuJB_D8j_wsFR4exaEmy',
-              playlistTitle: 'Hip Hop 2017',
+              playlistTitle: 'Hip Hop 2018',
               thumbnail: 'hiphop2017.jpg',
               background: 'hiphop2017bg.jpg'
             },
@@ -103,7 +103,7 @@ export default function(){
             },
             {
               playlistId:'PLRZlMhcYkA2EQRcAq4nf7pFP3LcD5uX7h',
-              playlistTitle: '2017 Rap',
+              playlistTitle: '2019 Rap',
               thumbnail: '2017rap.jpg',
               background: '2017rapbg.jpg'
             },
@@ -117,7 +117,7 @@ export default function(){
           playlists: [
             {
               playlistId:'PLw-VjHDlEOgvvecEeS-BC-qFhweKjZJ2I',
-              playlistTitle: 'RedMusic EDM 2017',
+              playlistTitle: 'RedMusic EDM 2019',
             },
             {
               playlistId:'PLB609C57B140530B3',
@@ -225,11 +225,11 @@ export default function(){
             },
             {
               playlistId:'PL3oW2tjiIxvSJxhzHAA7P_NNokrei_QFO',
-              playlistTitle: 'R&B 2017',
+              playlistTitle: 'R&B 2019',
             },
             {
               playlistId:'PLRUpgoNFP-iH9Ze6RSom4O4JhrHYGc6ow',
-              playlistTitle: 'VEVO R&B 2016',
+              playlistTitle: 'VEVO R&B 2019',
             },
             {
               playlistId:'PLVkoprmcJUlpE-1zPtk3sjQtcyyFhEA5v',

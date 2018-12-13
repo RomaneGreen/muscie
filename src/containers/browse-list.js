@@ -56,7 +56,7 @@ class BrowseList extends Component{
       return (
         <div className="browse-container">
           <div>
-          <h1>Browse Genres</h1>
+          <h1 className="browsegenres">Browse Genres</h1>
           {genresList}
           </div>
         </div>
